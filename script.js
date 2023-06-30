@@ -27,7 +27,7 @@ document.getElementById('btnCalculate').addEventListener('click', () => {
         const result = data.conversion_rates[currencyTwo] * amount;
 
         document.getElementById('result').innerHTML = `
-            <p>${amount} USD = ${result} ${currencyTwo}</p>
+            <p>${amount} ${currencyOne} = ${result} ${currencyTwo}</p>
         `
 
     });
