@@ -1,4 +1,4 @@
-const APIKey = "07f9612354a4fe8fec20e233";
+const APIKey = "Your API Key";
 const url = "https://v6.exchangerate-api.com/v6/" + APIKey;
 
 fetch(url + "/codes")
