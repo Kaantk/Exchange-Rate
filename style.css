@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffb92a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #1c1917;
+    width: 40%;
+    border-radius: 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result {
+    background-color: #fff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.exchange-rate-one, .exchange-rate-two, .amount-input {
+    width: 100%;
+}
+
+p {
+    margin: 0.5em 0em;
+}
+
+input {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+#btnCalculate {
+    border: none;
+    outline: none;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #22313f;
+    margin-top: 2em;
+}
+
+#btnCalculate:hover {
+    background-color: #e7e7e7;
+}
